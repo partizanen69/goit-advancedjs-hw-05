@@ -2,6 +2,7 @@
 
 set -euo pipefail
 
+rm -rf dist
 npm run build
 
 rm -rf /tmp/gh-pages
